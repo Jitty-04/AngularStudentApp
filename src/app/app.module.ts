@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudentEntryComponent } from './studentEntry/student-entry.component';
 import { ViewallComponent } from './viewall/viewall.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 const myRouter:Routes=[
   {
@@ -25,7 +26,8 @@ component:ViewallComponent
   declarations: [
     AppComponent,
     StudentEntryComponent,
-    ViewallComponent
+    ViewallComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
