@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { StudentEntryComponent } from './studentEntry/student-entry.component';
 import { ViewallComponent } from './viewall/viewall.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { FormsModule } from '@angular/forms';
 
 const myRouter:Routes=[
   {
@@ -32,7 +33,8 @@ component:ViewallComponent
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRouter)
+    RouterModule.forRoot(myRouter),
+    FormsModule
 
   ],
   providers: [],
