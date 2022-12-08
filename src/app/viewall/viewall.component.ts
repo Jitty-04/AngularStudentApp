@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-viewall',
+  selector: '=trueapp-viewall',
   templateUrl: './viewall.component.html',
   styleUrls: ['./viewall.component.css']
 })
